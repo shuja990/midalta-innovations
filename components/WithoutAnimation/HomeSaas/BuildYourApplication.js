@@ -49,10 +49,6 @@ class IndustriesWeServe extends Component {
                         </div>
                     </div>
                 </div>
-
-                <div className="shape9">
-                    <img src="/images/shape/shape9.png" alt="shape" />
-                </div>
             </section>
         );
     }

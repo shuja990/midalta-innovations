@@ -6,8 +6,8 @@ const OverlayLayout = ({ data }) => (
       <div className="container">
         <div className="overlay-content">
           <h2>{data.title}</h2>
-          <p><strong>How We Help:</strong> {data.howWeHelp}</p>
-          <p><strong>Consultant Insight:</strong> {data.insight}</p>
+          <p><strong>Our Approach: </strong> {data.howWeHelp}</p>
+          <p><strong>Our Perspective: </strong> {data.insight}</p>
         </div>
       </div>
     </section>

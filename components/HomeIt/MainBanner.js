@@ -58,24 +58,7 @@ class MainBanner extends Component {
           </div>
 
           {/* Shape Images */}
-          <div className="shape20">
-            <img src="/images/shape/shape19.png" alt="image" />
-          </div>
-          <div className="shape21">
-            <img src="/images/shape/shape20.png" alt="image" />
-          </div>
-          <div className="shape19">
-            <img src="/images/shape/shape18.png" alt="image" />
-          </div>
-          <div className="shape22">
-            <img src="/images/shape/shape21.png" alt="image" />
-          </div>
-          <div className="shape23">
-            <img src="/images/shape/shape22.svg" alt="image" />
-          </div>
-          <div className="shape24">
-            <img src="/images/shape/shape23.png" alt="image" />
-          </div>
+        
         </div>
       </>
     );

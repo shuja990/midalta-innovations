@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import PageTitleArea from '../components/Common/PageTitleArea';
-import ServicesStyleTwo from '../components/Services/ServicesStyleTwo';
 import Footer from '../components/Layouts/Footer';
 import Navbar from '../components/Layouts/Navbar';
-import ServicesStyleOne from '../components/Services/ServicesStyleOne';
 import DynamicLayout from '../components/Capabilities/DynamicLayout';
 
 class Services2 extends Component {
@@ -11,75 +9,47 @@ class Services2 extends Component {
   constructor() {
     super();
     this.state = {
-      consultingContent: [
+      "consultingContent": [
         {
-          "title": "Digital",
+          "title": "Strategic Guidance: Expanding Horizons, Grounded in Local Expertise",
           "layout": "rightImage",
-          "howWeHelp": "We enable businesses to harness the power of digital transformation, from modernizing operations with cutting-edge technology to enhancing customer experiences through digital channels. Our team advises on IT infrastructure, e-commerce development, and data analytics to ensure that businesses stay competitive in the digital age.",
-          "insight": "In regions like Africa and the Caribbean, digital adoption can be hindered by infrastructure gaps or regulatory barriers. We step in to help clients navigate these challenges, ensuring seamless integration of digital solutions. By fostering partnerships with local tech providers and securing government approvals for digital initiatives, we ensure that businesses can leverage the latest technology to drive efficiency and growth.",
+          "howWeHelp": "We provide actionable perspectives and strategic guidance that enable businesses to expand internationally while maintaining local relevance. We help clients identify new markets, assess competitive landscapes, and create growth strategies that are not only sustainable but culturally and economically appropriate for each region. With our deep understanding of the regulatory environments in the USA, Africa, and the Caribbean, we mitigate risks and help businesses smoothly transition into new markets.",
+          "insight": "In regions like Africa and the Caribbean, market entry can be fraught with regulatory complexities and logistical challenges. As consultants, we leverage our local connections and knowledge to help businesses navigate bureaucratic obstacles, obtain necessary permits, and build partnerships that fast-track growth. We also provide critical support for businesses looking to adapt their operations to meet local market demands, ensuring compliance while unlocking new revenue streams.",
           "image": "/images/home-saas/feature5.png"
         },
         {
-          "title": "Growth, Marketing & Sales",
+          "title": "Risk Management & Regulatory Assurance: Steering Through Challenges",
           "layout": "leftImage",
-          "howWeHelp": "We partner with clients to unlock growth potential by creating robust marketing strategies and optimizing sales processes. Our approach includes market segmentation, brand development, and customer acquisition strategies tailored to the specific dynamics of each region.",
-          "insight": "Emerging markets, particularly in Africa and the Caribbean, require localized growth strategies due to unique consumer behaviors and market conditions. As consultants, we help businesses navigate these complexities by facilitating local partnerships, securing distribution channels, and adjusting marketing strategies to resonate with target audiences. We solve on-the-ground sales challenges by leveraging regional knowledge and fostering connections with key stakeholders.",
+          "howWeHelp": "Midalta Innovation specializes in resolving crises swiftly and efficiently. From compliance issues to public relations disasters, our team steps in to manage and contain crises, protecting your reputation and operations. We ensure that your organization adheres to local and international regulations, providing compliance audits, regulatory advice, and direct intervention where needed.",
+          "insight": "In fast-evolving markets like Africa and the Caribbean, regulatory environments can change quickly. We anticipate these shifts and help clients avoid or respond to compliance violations. Our expertise in regulatory affairs means that we can step in at critical moments to resolve problems, whether it's handling government relations in a sensitive manner or negotiating penalties. We have the local connections and know-how to navigate red tape, ensuring business continuity even under pressure.",
           "image": "/images/home-saas/feature5.png"
         },
         {
-          "title": "Implementation",
+          "title": "Sustainability & ESG Solutions: Committed to Responsible Progress",
           "layout": "fullWidth",
-          "howWeHelp": "Midalta Innovations turns strategy into action by overseeing the full implementation process, ensuring projects are executed on time and within budget. Whether launching a new product, entering a new market, or executing a major transformation, we manage the details so that clients can focus on results.",
-          "insight": "In the Caribbean and Africa, implementation often requires overcoming logistical challenges, regulatory approvals, and supply chain disruptions. As consultants, we take on these hurdles, working with local authorities, securing necessary permits, and managing vendors to ensure seamless execution. Our ability to quickly resolve on-the-ground issues helps clients avoid costly delays and ensures that strategic initiatives succeed.",
+          "howWeHelp": "Midalta Innovations helps businesses integrate sustainability into their operations and meet environmental, social, and governance (ESG) standards. Whether you are looking to reduce your carbon footprint, engage in responsible sourcing, or implement governance frameworks, our experts provide the necessary tools and strategies. We tailor these efforts to the unique environmental and regulatory demands of each region, ensuring that businesses not only comply with ESG goals but also become industry leaders in sustainability.",
+          "insight": "In the Caribbean and Africa, sustainability is a key priority due to environmental challenges such as climate change and resource scarcity. We use our regional expertise to help businesses adopt eco-friendly practices that not only satisfy ESG requirements but also enhance their long-term viability. We navigate local regulations around sustainability, assist with securing permits for green initiatives, and provide crisis intervention when environmental challenges arise.",
           "image": "/images/home-saas/feature5.png"
         },
         {
-          "title": "Mergers & Acquisitions (M&A)",
+          "title": "Project Development & Management: Turning Concepts into Success",
           "layout": "leftImage",
-          "howWeHelp": "We support clients through every phase of the M&A process, from identifying potential targets and conducting due diligence to structuring deals and integrating businesses. Our expertise ensures that clients maximize value and minimize risks during transactions.",
-          "insight": "Navigating M&A in regions like Africa or the Caribbean can be particularly challenging due to varying legal frameworks, cultural differences, and regulatory complexities. We act as consultants by facilitating negotiations, securing regulatory approvals, and ensuring smooth integration post-transaction. Our local knowledge and strong government relationships allow us to streamline the M&A process, mitigating risks and ensuring that deals proceed smoothly.",
+          "howWeHelp": "From the initial concept to project completion, we provide full-service project development and management, particularly for large-scale initiatives in agriculture, mining, infrastructure, and tourism. Our services include feasibility assessments, regulatory approval processes, resource management, and stakeholder engagement. We ensure that every phase of the project is executed seamlessly, on time, and within budget.",
+          "insight": "In regions like Africa and the Caribbean, executing large-scale projects often requires navigating complex local bureaucracies and unpredictable supply chains. We facilitate smoother project development by securing government approvals, managing logistics in challenging environments, and resolving on-the-ground issues that can stall progress. We tap into our networks to ensure you have the right partnerships, materials, and permissions to get projects off the ground quickly and effectively.",
           "image": "/images/home-saas/feature5.png"
         },
         {
-          "title": "Operations",
+          "title": "Capital & Growth Solutions: Empowering Potential",
           "layout": "rightImage",
-          "howWeHelp": "We enhance operational efficiency by optimizing processes, reducing costs, and improving supply chain performance. From manufacturing to service delivery, our team focuses on maximizing productivity while maintaining quality and sustainability.",
-          "insight": "Operations in emerging markets often face challenges such as unreliable infrastructure or inconsistent supply chains. As consultants, we step in to resolve these issues, creating contingency plans, improving supplier relationships, and securing reliable logistics networks. Our local expertise helps clients mitigate operational risks and achieve smooth, efficient performance, even in challenging environments.",
+          "howWeHelp": "We assist clients in securing private capital to fund growth, expansion, or new ventures in sectors such as tourism, agriculture, and energy. Whether you're seeking investment for a large-scale project or looking to attract venture capital for a new initiative, Midalta Innovation connects you with the right investors and financial institutions. Our extensive experience in financial services across the USA, Africa, and the Caribbean allows us to guide clients through the capital raising process with confidence.",
+          "insight": "Securing private capital in emerging markets like Africa or the Caribbean requires a deep understanding of both local and international investment landscapes. We provide the crucial bridge between businesses and investors, ensuring that our clients are well-positioned to attract capital. We help clients refine their business models, prepare investor-ready presentations, and negotiate favorable terms. When challenges arise, such as shifting regulations or political risks, we step in to resolve these issues, ensuring your capital flow remains uninterrupted.",
           "image": "/images/home-saas/feature5.png"
         },
         {
-          "title": "People & Organizational Performance",
+          "title": "Our Approach: Consultants in Action",
           "layout": "fullWidth",
-          "howWeHelp": "We help organizations unlock the full potential of their workforce by designing talent management strategies, improving leadership capabilities, and enhancing organizational culture. Our services include performance management, talent acquisition, and leadership development programs.",
-          "insight": "In regions with different labor laws and workforce dynamics, we help clients navigate local regulations while implementing global best practices. As consultants, we assist in negotiating with labor unions, resolving human resource disputes, and managing talent acquisition in competitive markets. We ensure that our clients can build high-performing teams that are aligned with both local norms and global standards.",
-          "image": "/images/home-saas/feature5.png"
-        },
-        {
-          "title": "Risk & Resilience",
-          "layout": "rightImage",
-          "howWeHelp": "Midalta Innovations helps businesses anticipate and mitigate risks, from regulatory compliance and cybersecurity threats to market volatility and supply chain disruptions. We create strategies to enhance organizational resilience, ensuring businesses are prepared to weather any storm.",
-          "insight": "In regions like Africa and the Caribbean, businesses face unique risks such as political instability, natural disasters, and shifting regulations. We act as consultants by identifying these risks early and creating tailored solutions to protect our clients' interests. Whether it’s working with local governments to navigate regulatory changes or developing contingency plans for supply chain interruptions, we ensure our clients remain resilient in the face of uncertainty.",
-          "image": "/images/home-saas/feature5.png"
-        },
-        {
-          "title": "Strategy & Corporate Finance",
-          "layout": "leftImage",
-          "howWeHelp": "We assist clients in developing long-term strategies for growth and profitability. Our corporate finance services include financial modeling, capital raising, and investment planning. We ensure that our clients make informed decisions that align with their strategic objectives and financial goals.",
-          "insight": "Securing financing and implementing growth strategies in the Caribbean and Africa requires a deep understanding of local financial markets and government incentives. As consultants, we help clients navigate these markets, secure private capital, and structure deals that align with local regulatory frameworks. We also work with governments and financial institutions to unlock funding for projects that drive regional development.",
-          "image": "/images/home-saas/feature5.png"
-        },
-        {
-          "title": "Sustainability",
-          "layout": "fullWidth",
-          "howWeHelp": "Sustainability is at the core of our approach. We assist clients in developing eco-friendly strategies that comply with environmental regulations and meet consumer demand for responsible business practices. Our services include carbon reduction plans, waste management solutions, and sustainable supply chain strategies.",
-          "insight": "In regions like the Caribbean and Africa, sustainability isn’t just a trend—it’s a necessity due to the vulnerability of these areas to climate change. As consultants, we help businesses implement sustainable practices that meet local environmental regulations and global standards. We facilitate partnerships with local governments and NGOs to support environmental initiatives and ensure businesses play a leading role in regional sustainability efforts.",
-          "image": "/images/home-saas/feature5.png"
-        },
-        {
-          "title": "Transformation",
-          "layout": "leftImage",
-          "howWeHelp": "We guide businesses through complex transformations, whether they involve digital upgrades, organizational restructures, or operational overhauls. Our team provides hands-on support throughout the entire process, ensuring that transformations are seamless and deliver the intended outcomes.",
-          "insight": "Transformational change in regions like Africa and the Caribbean often faces resistance due to cultural norms, workforce dynamics, and regulatory constraints. As consultants, we manage these transformations by engaging with local stakeholders, aligning business objectives with cultural realities, and overcoming regulatory hurdles. Our ability to navigate complex local environments ensures that transformations are not only successful but also sustainable.",
+          "howWeHelp": "At Midalta Innovation, we don’t just offer advice – we roll up our sleeves and get involved directly. We use our on-the-ground experience and strong regional networks to overcome barriers, mitigate risks, and ensure that your organization can thrive, even in challenging environments. Whether you’re expanding your business, managing a crisis, or seeking investment, our role as consultants means we are here to solve problems, open doors, and deliver results that make a lasting impact.",
+          "insight": "Our on-the-ground expertise allows us to identify opportunities, navigate challenges, and deliver tailored solutions that empower businesses to succeed in dynamic markets like Africa and the Caribbean. We drive results through a mix of strategic insight and hands-on execution, ensuring that our clients achieve their goals efficiently and sustainably.",
           "image": "/images/home-saas/feature5.png"
         }
       ]
@@ -91,10 +61,10 @@ class Services2 extends Component {
       <>
         <Navbar />
         <PageTitleArea
-          pageTitle="Our Capabilities"
-          pageDescription="At Midalta Innovations, we provide a broad range of consulting services designed to help businesses thrive in complex and evolving markets. Our role as consultants allows us to address urgent problems, create long-term strategies, and implement solutions that drive tangible results. We bring deep expertise across a variety of functional areas, helping clients not only solve immediate challenges but also build lasting resilience and growth in the USA,  Africa, and the Caribbean."
+          pageTitle="Our Strategic Services"
+          pageDescription="Midalta Innovation offers comprehensive consulting services tailored to the unique challenges and opportunities of key industries. We help businesses and governments tackle complex problems, navigate crises, and implement solutions that drive sustainable growth. Our hands-on approach leverages our extensive networks and deep industry Perspectives, ensuring that our clients are equipped to overcome both immediate and long-term challenges across the USA,  Africa, and the Caribbean.
+Whether your organization faces regulatory hurdles, needs to expand across borders, or seeks to mitigate risks, our expert team is ready to deliver results."
         />
-        <ServicesStyleOne />
         {this?.state?.consultingContent?.map((section, index) => (
           <DynamicLayout key={index} data={section} />
         ))}

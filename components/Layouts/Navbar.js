@@ -84,17 +84,12 @@ class Navbar extends Component {
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
                                                     <Link href="/our-capabilities" activeClassName="active">
-                                                        <a className="nav-link">Our Capabilities</a>
+                                                        <a className="nav-link">Our Strategic Services</a>
                                                     </Link>
                                                 </li>
                                                 <li className="nav-item">
                                                     <Link href="/our-consulting-solutions" activeClassName="active">
-                                                        <a className="nav-link">Our Consulting Solutions</a>
-                                                    </Link>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <Link href="/industries" activeClassName="active">
-                                                        <a className="nav-link">Industries</a>
+                                                        <a className="nav-link">Our Expertise & Solutions</a>
                                                     </Link>
                                                 </li>
                                             </ul>
@@ -102,8 +97,8 @@ class Navbar extends Component {
 
 
                                         <li className="nav-item">
-                                            <Link href="/services" activeClassName="active">
-                                                <a className="nav-link">Services</a>
+                                            <Link href="/sectors" activeClassName="active">
+                                                <a className="nav-link">Sectors</a>
                                             </Link>
                                         </li>
                                         <li className="nav-item">
@@ -137,9 +132,14 @@ class Navbar extends Component {
                                 </div>
 
                                 <div className=" ms-auto">
-                                    <Link href="/contact">
-                                        <a className="default-btn">
+                                    <Link href="/contact" >
+                                        <a className="default-btn me-2" >
                                             <i className="bx bxs-hot"></i> Get Started <span></span>
+                                        </a>
+                                    </Link>
+                                    <Link href="/login">
+                                        <a className="default-btn black-btn">
+                                            <i className="bx bx-log-in"></i> Log In <span></span>
                                         </a>
                                     </Link>
                                 </div>

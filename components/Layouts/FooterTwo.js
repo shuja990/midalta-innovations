@@ -15,7 +15,7 @@ class Footer extends Component {
                             <div className="single-footer-widget">
                                 <div className="logo">
                                     <a href="/">
-                                        <img src="/images/whit-logo.png" alt="image" />
+                                        <img src="/images/whit-logo.png" alt="image" style={{position:"unset !important"}}/>
                                     </a>
                                 </div>
                                 <p>Midalta Innovation is a leading strategy and innovation firm. For nearly 10 years, we’ve helped create new businesses and reinvent existing ones. Midalta has partnered with the world’s most admired companies to help crack their biggest growth challenges and respond quickly to pressing market issues.</p>

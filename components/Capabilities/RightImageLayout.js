@@ -1,12 +1,12 @@
 const RightImageLayout = ({ data, consult }) => (
-  <section className={`services-area ptb-100 ${consult && "bg-light"}`}>
+  <section className={`services-area ptb-100 ${consult && "bg-f4e9da"}`}>
     <div className="container">
       <div className="row align-items-center">
         <div className="col-lg-6">
           <div className="">
             <h2>{data.title}</h2>
-            <p><strong>How We Help:</strong> {data.howWeHelp}</p>
-            <p><strong>Consultant Insight:</strong> {data.insight}</p>
+            <p><strong>Our Approach: </strong> {data.howWeHelp}</p>
+            <p><strong>Our Perspective: </strong> {data.insight}</p>
           </div>
         </div>
         <div className="col-lg-6 services-image">

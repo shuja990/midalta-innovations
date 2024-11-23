@@ -23,10 +23,10 @@ class IndexDigitalMarketing extends Component {
             <>
                 <Navbar />
                 <MainBanner />
-                <Featured />                
+                {/* <Featured />                 */}
                 <AboutArea />
                 <ServiceRightImageStyle />
-                <BuildYourApplication />
+                {/* <BuildYourApplication /> */}
                 <GlobalReachAndWhyChooseUs />
                 {/* <ServicesCard /> */}
                 {/* <CaseStudies /> */}

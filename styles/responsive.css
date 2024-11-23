@@ -7,8 +7,8 @@
     font-size: 14px;
   }
   .ptb-100 {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .pt-100 {
     padding-top: 60px;
@@ -1121,6 +1121,7 @@
   }
   .about-inner-image img {
     display: inline-block;
+    height: 100%;
   }
   .about-inner-content {
     padding: 30px 25px;
@@ -1428,8 +1429,8 @@
     font-size: 14px;
   }
   .ptb-100 {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .pt-100 {
     padding-top: 80px;
@@ -2090,6 +2091,7 @@
   }
   .about-inner-image img {
     display: inline-block;
+    height: 100%;
   }
   .about-inner-content {
     padding: 40px;

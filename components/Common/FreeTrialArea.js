@@ -17,39 +17,38 @@ class FreeTrialArea extends Component {
               {/* New York Office */}
               <div className="office">
                 <h3>New York Office</h3>
-                <p>Address: [Address]</p>
-                <p>Phone: [Phone Number]</p>
-                <p>Email: <a href="mailto:[Email Address]">[Email Address]</a></p>
+                <p>Address: 250 Park Ave 7th Floor, New York, NY 10177</p>
+                <p>Phone: <a href="tel:1-855-Midalta">1-855-Midalta</a></p>
+                <p>Email: <a href="mailto:newyork@midalta.com">newyork@midalta.com</a></p>
               </div>
 
               {/* Caribbean Office */}
               <div className="office">
-                <h3>Caribbean Office</h3>
-                <p>Address: [Address]</p>
-                <p>Phone: [Phone Number]</p>
-                <p>Email: <a href="mailto:[Email Address]">[Email Address]</a></p>
+                <h3>Cayman Islands Office</h3>
+                <p>Address: 20 Genesis Close, George Town, Grand Cayman, KY1-1208</p>
+                <p>Phone: <a href="tel:1-855-Midalta">1-855-Midalta</a></p>
+                <p>Email: <a href="mailto:caymanislands@midalta.com">caymanislands@midalta.com</a></p>
               </div>
 
               {/* East Africa Office */}
               <div className="office">
-                <h3>East Africa Office</h3>
-                <p>Address: [Address]</p>
-                <p>Phone: [Phone Number]</p>
-                <p>Email: <a href="mailto:[Email Address]">[Email Address]</a></p>
+                <h3>Singapore Office</h3>
+                <p>Address: 51 Changi Business Park Central 2 Singapore 486066</p>
+                <p>Phone: <a href="tel:1-855-Midalta">1-855-Midalta</a></p>
+                <p>Email: <a href="mailto:singapore@midalta.com">singapore@midalta.com</a></p>
               </div>
             </div>
 
             <Link href="/contact">
-              <a className="default-btn">
+              <a className="default-btn text-center">
                 Contact Us
-                <span></span>
               </a>
             </Link>
           </div>
         </div>
 
         {/* Shape Images */}
-        <div className="shape10">
+        {/* <div className="shape10">
           <img src="/images/shape/shape10.png" alt="shape" />
         </div>
         <div className="shape11">
@@ -60,7 +59,7 @@ class FreeTrialArea extends Component {
         </div>
         <div className="shape13">
           <img src="/images/shape/shape12.png" alt="shape" />
-        </div>
+        </div> */}
       </section>
     );
   }
