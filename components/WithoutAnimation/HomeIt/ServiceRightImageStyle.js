@@ -40,8 +40,9 @@ class ServiceRightImageStyle extends Component {
                                         }
                                     ].map(service => (
                                         <div className="col-sm-12">
-                                            <div className="feature-box">
-                                                <i className='bx bxs-badge-check'></i>
+                                            {/* <div className="feature-box"> */}
+                                            <div>
+                                                {/* <i className='bx bxs-badge-check'></i> */}
                                                 <strong>{service.title}: </strong> {service.description}
                                             </div>
                                         </div>

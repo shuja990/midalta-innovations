@@ -63,27 +63,28 @@ export default class AboutArea extends Component {
 
               <div className="col-lg-6 col-md-12">
                 <div className="about-inner-content">
-                    <p>
-                      Midalta Innovations is a dynamic consulting firm offering
-                      specialized services to both public and private sectors.
-                      We operate at the intersection of local knowledge and
-                      global insight, helping clients navigate the intricacies
-                      of rapidly changing markets and industries. Our firm has
-                      established itself as a trusted partner for businesses
-                      seeking growth, government entities looking for strategic
-                      solutions, and investors keen on unlocking opportunities
-                      across diverse geographies.
-                    </p>
-                    <h4>Our Expertise:</h4>
-                    <div className="expertise-grid">
-                      {this.state.expertise.map((item, index) => (
-                        <div key={index} className="expertise-card">
-                          <i className={item.icon}></i>
-                          <h5>{item.title}</h5>
-                          <p>{item.description}</p>
-                        </div>
-                      ))}
-                    </div>
+                  <p>
+                    Midalta Innovations is a dynamic consulting firm offering
+                    specialized services to both public and private sectors.
+                    We operate at the intersection of local knowledge and
+                    global insight, helping clients navigate the intricacies
+                    of rapidly changing markets and industries. Our firm has
+                    established itself as a trusted partner for businesses
+                    seeking growth, government entities looking for strategic
+                    solutions, and investors keen on unlocking opportunities
+                    across diverse geographies.
+                  </p>
+                  <h4>Our Expertise:</h4>
+                  <ul className="expertise-grid">
+                    {this.state.expertise.map((item, index) => (
+                      <li key={index} className="expertise-item">
+                        {/* <i className={item.icon}></i> */}
+                        <h5>{item.title}</h5>
+                        <p>{item.description}</p>
+                      </li>
+                    ))}
+                  </ul>
+
                 </div>
               </div>
             </div>
